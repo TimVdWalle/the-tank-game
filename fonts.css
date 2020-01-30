@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'GAMECUBEN';
+	src: url('./static/fonts/gamecuben/GAMECUBENDualSet.eot');
+	src: url('./static/fonts/gamecuben/GAMECUBENDualSet.eot?#iefix') format('embedded-opentype'),
+		url('./static/fonts/gamecuben/GAMECUBENDualSet.woff') format('woff'),
+		url('./static/fonts/gamecuben/GAMECUBENDualSet.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Vegur';
+	src: url('./static/fonts/vegur/Vegur-Bold.eot');
+	src: url('./static/fonts/vegur/Vegur-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./static/fonts/vegur/Vegur-Bold.woff') format('woff'),
+		url('./static/fonts/vegur/Vegur-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Vegur';
+	src: url('./static/fonts/vegur/Vegur-Regular.eot');
+	src: url('./static/fonts/vegur/Vegur-Regular.eot?#iefix') format('embedded-opentype'),
+		url('./static/fonts/vegur/Vegur-Regular.woff') format('woff'),
+		url('./static/fonts/vegur/Vegur-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Vegur';
+	src: url('./static/fonts/vegur/Vegur-Light.eot');
+	src: url('./static/fonts/vegur/Vegur-Light.eot?#iefix') format('embedded-opentype'),
+		url('./static/fonts/vegur/Vegur-Light.woff') format('woff'),
+		url('./static/fonts/vegur/Vegur-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}

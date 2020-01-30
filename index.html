@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>TheTankGame</title>
+
+		<!-- Load style sheet -->
+		<link href="fonts.css" media="screen" rel="stylesheet" type="text/css">
+		<link href="index.css" media="screen" rel="stylesheet" type="text/css">
+	
+		<!-- Library code -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		
+		<!--
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		-->
+
+		<!-- Load socket.io client side contents. -->
+		<script src="/socket.io/socket.io.js"></script>
+
+	 	<!-- Load the GUI rendering library code. -->
+		<script type="text/javascript" src="lib/dat.gui.min.js"></script>
+			<!-- Load the keyboard specific code --> 
+		<script type="text/javascript" src="lib/keyboard.js"></script>
+	 	
+	
+		<!-- Game code -->
+ 		<!-- Load the common game code. -->
+		<script type="text/javascript" src="game.core.js"></script>
+
+		<!-- Finally, Load the game client code. -->
+		<script type="text/javascript" src="client.js"></script>	
+		<script type="text/javascript" src="client.ui.js"></script>		
+
+	</head>
+
+	<body>
+		<div id="mainContainer">
+			<h1 class="gametitle">The Tank Game</h1>
+			
+			<div id="loading">
+				loading ...
+				<br />
+				this.client_create_ping_timer and game.update are disabled
+			</div>
+			
+			<div id="loginScreen">
+				player name<br />
+				<input type="text">
+
+				<div id="joinGameRoom">
+					<br /><br />
+					join game<br />
+					<select id="gameRooms"></select>
+					<br />
+					<input type="submit" value="join">
+					<br />
+				</div>
+			</div>
+			
+		</div>
+
+
+
+		<canvas id="viewport">
+		</canvas>
+	</body>
+
+</html>

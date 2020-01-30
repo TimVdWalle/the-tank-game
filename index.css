@@ -1,0 +1,50 @@
+html , body {
+	background: #212121; 
+	color: #fff; 
+	margin: 0; 
+	font-family: 'Vegur', Helvetica;
+	padding: 0;
+}
+
+#mainContainer {
+	border:solid 1px #333;
+	margin-top: 10%;
+	text-align: center;
+
+
+	width: 720px;
+	height : 480px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mainContainer h1 {
+	font-family: 'GAMECUBEN';
+	font-size: 42px;
+	font-style: italic;
+	color: #BE384D;
+}
+
+#loginScreen {
+	display: none;
+	margin-top: 10%;
+	text-align: center;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#joinGameRoom{
+	display: none;
+}
+
+#viewport {
+	display: none;
+	border:solid 1px #333;
+	height : 480px;
+	margin: auto;
+	left:0; right:0; top:0; bottom:0;
+	position: absolute;
+	width : 720px;
+	z-index:100;
+}
